@@ -21,7 +21,6 @@ class ArticlesController < ApplicationController
     end
   end
 
-
   def show
   end
 

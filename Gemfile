@@ -3,7 +3,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+
 ruby '2.5.3'
+
+
+gem 'jquery-rails'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'

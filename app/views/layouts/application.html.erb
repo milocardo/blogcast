@@ -10,15 +10,9 @@
   </head>
 
   <body>
+    <%= render 'layouts/navigation' %>
+    <%= render 'shared/messages' %>
     <%= yield %>
 
-    <% flash.each do |name, msg| %>
-      <ul>
-       <li><%= msg %></li>
-      </ul>
-    <% end %>
-
-
-    <h2> Test</h2>
   </body>
 </html>
